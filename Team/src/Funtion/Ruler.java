@@ -1,5 +1,6 @@
 package Funtion;
 
+
 public class Ruler {
 
     public int getTrueLength(String []array){
