@@ -22,33 +22,21 @@ public class FourFundamentalRules {
         File f1 = new File(file_path+"\\Exercise.txt");
         File f2 = new File(file_path+"\\Answer.txt");
         File f3 = new File(file_path+"\\Grade.txt");
-
         FileIO.createOrFlush(f1);
         FileIO.createOrFlush(f2);
         FileIO.createOrFlush(f3);
-
-        //代码规范
-        boolean tag;
-
-
-        // tag 做个标记让用户选择是否输出正确率
+        //  输入一些基本信息，如要生成的表达式数目num，和表达式的数值范围limits
         Input.inputBase();
-
-        //  输出表达式，等待用户作答
-        //说明一下num是什么
-        CreateCorrectExpression.outCorrectExpression(Input.num, Input.in,f1,f2);
-
+        //  输出表达式，等待用户作答，num：表达式数目，limits：表达式的数值范围
+        CreateCorrectExpression.outCorrectExpression(Input.num, Input.limits,f1,f2);
         // 用户答案获取
-        String[] s1 = Input.usersAnswer();
-
-        tag = Input.inputExpand();
-
-        // 如果要输出正确率，输入命令
-
+        String[] useranswers = Input.usersAnswer();
+        // 如果要输出正确率，输入正确命令，表示输出自己答题情况
+        boolean tag = Input.inputExpand();
         if (tag) {
             System.out.println("及时检查自己的作业哦");
             //  写入文件
-            Accuracy.result(s1,f3);
+            Accuracy.result(useranswers,f3);
         }else{
             System.out.println("感谢您的使用");
         }

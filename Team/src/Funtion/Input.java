@@ -4,60 +4,78 @@ import java.util.Scanner;
 
 /**
  * @author Mazin
- * switch case
+ * 输入
  */
 public class Input {
     public static int num;
-    public static int in;
+    public static int limits;
 
-    /**    输出基本信息    */
+    /**
+     *   输入基本信息，输出一些指导信息
+     */
     public static void inputBase(){
         Scanner sc = new Scanner(System.in);
         String[] s1;
         String str;
         print();
+        t:
+        // 表达式数目num没被赋值不结束
         while(num == 0) {
             System.out.println("\n请输入-n命令");
             str = sc.nextLine().trim();
             s1 = str.split(" +");
-
-
-            /**
-             * 加入这里输入-n -r 英文呢？？
-             */
+            // 要求必须“-n "，后面再加东西
             if ("-n".equals(s1[0]) && s1.length > 1) {
+                // for循环 要求必须输入数字
+                for (int j = 0; j < s1[1].length(); j++) {
+                    boolean tag = s1[1].charAt(j) >= 48 && s1[1].charAt(j) <= 57;
+                    if (!tag) {
+                        System.out.println("请勿输入不合规范的字符");
+                        continue t;
+                    }
+                }
                 num = Integer.parseInt(s1[1]);
                 break;
-            } else {
-                System.out.println("输入错误,请重新输入");
             }
+            System.out.println("输入错误,请重新输入");
         }
-        //说明一下in是干嘛的
-        while(in == 0) {
+       // 表达式数值范围limits不被赋值不结束
+        s:
+        while(limits == 0) {
             System.out.println("\n请输入-r命令");
             str = sc.nextLine().trim();
             s1 = str.split(" +");
             if ("-r".equals(s1[0]) && s1.length > 1) {
-                in = Integer.parseInt(s1[1]);
+                // for循环 要求必须输入数字
+                for (int j = 0; j < s1[1].length(); j++) {
+                    boolean tag = s1[1].charAt(j) >= 48 && s1[1].charAt(j) <= 57;
+                    if (!tag) {
+                        System.out.println("请勿输入不合规范的字符");
+                        continue s;
+                    }
+                }
+                limits = Integer.parseInt(s1[1]);
                 break;
-            }else{
-                System.out.println("输入错误,请重新输入");
             }
+            System.out.println("输入错误,请重新输入");
         }
         System.out.println("---------------------");
-        System.out.println("请打开Exercise.txt文件，并在这里答题");//操作说明详细一点
-        System.out.println("注：请在答案前注明序号并加“.”，否则不作答案录入，\n    且同一题号不同答案视为修改。答题顺序不做要求");
-        //给个例子
+        System.out.println("【请在控制台答题！】");
+        System.out.println("真分数的输入请严格按照：“整数'分子/分母”形式输入！ ");
     }
 
     private static void print(){
-        System.out.println("【自动生成四则运算器欢迎您！】");
-        System.out.println("请输入合格的命令行：");
-        System.out.println("-n x: 生成指定数目的题目x");
+        System.out.println("         👍❤ 自动生成四则运算器欢迎您！❤👍");
+        System.out.println("-------------------------------------------------------");
+        System.out.println("请输入如以下合格的命令行：");
+        System.out.println("-n x: 生成指定数目的题目数x");
         System.out.println("-r x: 指定题目中数值的范围，[0,x)");
+        System.out.println("最后生成的练习、答案（Exercise.txt、Answer.txt）文件在当前目录下！");
     }
 
-    /**    扩展    */
+    /**
+     *  扩展输入内容
+     */
     public static boolean inputExpand(){
         System.out.println("做完题后是否进行答案校对？");
         System.out.println("正确命令：-e <exercisefile> -a <answerfile>，退出输入exit");
@@ -70,12 +88,15 @@ public class Input {
         while(true) {
             String st = sc.nextLine().trim();
             s = st.split(" ");
+            // 选择退出，不校对
             if("exit".equals(s[0])){
                 tag = false;
                 break;
             }
-            if (("-a".equals(s[0]) && "Answer.txt".equals(s[1]) && "-e".equals(s[2]) && "Exercise.txt".equals(s[3])) ||
-               ("-a".equals(s[2]) && "Answer.txt".equals(s[3]) && "-e".equals(s[0]) && "Exercise.txt".equals(s[1]))) {
+            // 正确输入，校对
+            boolean flag = ("-a".equals(s[0]) && "Answer.txt".equals(s[1]) && "-e".equals(s[2]) && "Exercise.txt".equals(s[3])) ||
+                    ("-a".equals(s[2]) && "Answer.txt".equals(s[3]) && "-e".equals(s[0]) && "Exercise.txt".equals(s[1]));
+            if (flag) {
                 tag = true;
                 break;
             }
@@ -84,43 +105,38 @@ public class Input {
         return tag;
     }
 
-    /**     获取用户答案  */
-    /*
-    实现控制台输出题目，注意反馈错误信息，比如作答者乱输入东西
+    /**
+     *    获取用户答案
+     * @return 返回用户答案的String数组
      */
     public static String[] usersAnswer(){
-//        String[] ques;
-//        ques = CreateCorrectExpression.getQuestions();
+        String[] ques = CreateCorrectExpression.getQuestions();
         Scanner sc = new Scanner(System.in);
-        String[] s1 = new String[Input.num];
+        // 获取控制台用户答案
+        String[] useranswer = new String[Input.num];
         StringBuffer sb = new StringBuffer();
+        x:
         for(int i = 0; i < Input.num;){
-//            System.out.print(i + ques[i]);
+            System.out.print(i+1 + " . " + ques[i]);
+            //  获取用户的输入，是否为答案待处理
             String line = sc.nextLine();
-            if(sb.length() != 0) {
-                sb.delete(0, sb.length());
-            }
-            int j = 0;
-            //  题目序号
-            while(j < line.length() && line.charAt(j) != '.'){
-                sb.append(line.charAt(j++));
-            }
-            if(j == line.length()){
+            // 输入为空，视为不回答问题
+            if(line.isEmpty()){
+                System.out.println("请勿跳过作答！");
                 continue;
             }
-            int index = Integer.parseInt(sb.toString());
-            sb.delete(0,sb.length());
-            //  序号的答案
-            while(++j < line.length()){
-                sb.append(line.charAt(j));
+            // 输入的应该是规范的答案，不能有字母或者除 ' 、/ 外的字符
+            for(int j = 0; j < line.length(); j++){
+                boolean tag = (line.charAt(j) >= 47 && line.charAt(j) <= 57) || line.charAt(j) == '\'' || line.charAt(j) == '/';
+                if(!tag){
+                    System.out.println("请勿输入不合规范的字符");
+                    continue x;
+                }
             }
-            if(s1[index - 1] == null) {
-                s1[index - 1] = sb.toString().trim();
-                i++;
-            }else{
-                s1[index - 1] = sb.toString().trim();
-            }
+            //  排除上面所有的情况，那么输入的就是答案
+            useranswer[i] = line;
+            i++;
         }
-        return s1;
+        return useranswer;
     }
 }
