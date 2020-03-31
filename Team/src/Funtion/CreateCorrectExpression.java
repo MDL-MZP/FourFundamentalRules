@@ -11,6 +11,10 @@ import java.util.Random;
  *
  */
 public class CreateCorrectExpression {
+
+    /**
+     * 这个10000想办法用num代替
+     */
     private static String[] questions = new String[10000];
     private static String[] answers = new String[10000];
 
@@ -36,6 +40,7 @@ public class CreateCorrectExpression {
         charNum = r.nextInt(3) + 1;
         for(int countCharNum = 0;countCharNum < charNum; countCharNum++) {
             //    生成1个数 , 范围  [0,in)
+            //标记未满足需求
             t = r.nextInt(in);
             //   拿到符号
             c = character.charAt(r.nextInt(character.length()));
@@ -53,7 +58,7 @@ public class CreateCorrectExpression {
     /**    筛选正确算术表达式，写入文件1 ，并做出答案，写入文件2  */
     public static String[] outCorrectExpression(int num, int in, File Exercise,File Answer) throws Exception{
 
-        String correctExpression = "";
+        String correctExpression = "";//干嘛的？
         String exps = "";
         int i = 0;
         Screen screen = new Screen();
@@ -72,10 +77,6 @@ public class CreateCorrectExpression {
 
         // 正确的表达式 写入练习文件
         FileIO.write(Exercise,questions);
-//        for(int j = 0; j < questions.length && questions[j]!=null;j++) {
-//            System.out.println(questions[j]);
-//        }
-        //精细筛选
 
         // 做出答案
         for(int j = 0;j < num ;j++){

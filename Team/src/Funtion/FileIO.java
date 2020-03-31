@@ -12,6 +12,7 @@ import java.io.FileWriter;
 public class FileIO {
 
     /**         读取练习文件以获取用户的答案       */
+    //提问：这是干嘛？
     public static String[] read(File f) throws Exception{
         // 对一行的读取
         String[] line;
@@ -43,6 +44,7 @@ public class FileIO {
     }
 
     /**       创建文件或者清除文件内容          */
+
     public static void createOrFlush(File f) throws Exception{
         if (!f.exists()) {
             f.createNewFile();

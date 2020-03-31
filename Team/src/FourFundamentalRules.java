@@ -14,14 +14,20 @@ import java.io.File;
 public class FourFundamentalRules {
 
     public static void main(String[] args) throws Exception {
-        File f1 = new File("E:\\TeamWork\\TeamWork/Exercise.txt");
-        File f2 = new File("E:\\TeamWork\\TeamWork/Answer.txt");
-        File f3 = new File("E:\\TeamWork\\TeamWork/Grade.txt");
+        /**
+         * 提要求：给用户说明怎么使用以及实现最后文件自动删除
+         */
+        File file = new File("");
+        String file_path = file.getAbsolutePath();
+        File f1 = new File(file_path+"\\Exercise.txt");
+        File f2 = new File(file_path+"\\Answer.txt");
+        File f3 = new File(file_path+"\\Grade.txt");
 
         FileIO.createOrFlush(f1);
         FileIO.createOrFlush(f2);
         FileIO.createOrFlush(f3);
 
+        //代码规范
         boolean tag;
 
 
@@ -29,6 +35,7 @@ public class FourFundamentalRules {
         Input.inputBase();
 
         //  输出表达式，等待用户作答
+        //说明一下num是什么
         CreateCorrectExpression.outCorrectExpression(Input.num, Input.in,f1,f2);
 
         // 用户答案获取

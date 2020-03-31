@@ -20,6 +20,11 @@ public class Input {
             System.out.println("\n请输入-n命令");
             str = sc.nextLine().trim();
             s1 = str.split(" +");
+
+
+            /**
+             * 加入这里输入-n -r 英文呢？？
+             */
             if ("-n".equals(s1[0]) && s1.length > 1) {
                 num = Integer.parseInt(s1[1]);
                 break;
@@ -27,6 +32,7 @@ public class Input {
                 System.out.println("输入错误,请重新输入");
             }
         }
+        //说明一下in是干嘛的
         while(in == 0) {
             System.out.println("\n请输入-r命令");
             str = sc.nextLine().trim();
@@ -39,8 +45,9 @@ public class Input {
             }
         }
         System.out.println("---------------------");
-        System.out.println("请打开Exercise.txt文件，并在这里答题");
+        System.out.println("请打开Exercise.txt文件，并在这里答题");//操作说明详细一点
         System.out.println("注：请在答案前注明序号并加“.”，否则不作答案录入，\n    且同一题号不同答案视为修改。答题顺序不做要求");
+        //给个例子
     }
 
     private static void print(){
@@ -55,6 +62,7 @@ public class Input {
         System.out.println("做完题后是否进行答案校对？");
         System.out.println("正确命令：-e <exercisefile> -a <answerfile>，退出输入exit");
         System.out.println("-e 指定你答题的题目文件，-a 指定比较的答案文件");
+        System.out.println("例如：-e Exercise.txt -a Answer.txt");
         System.out.println("注：校对的结果和正确率在Grade.txt文件.");
         Scanner sc = new Scanner(System.in);
         String[] s;
@@ -77,11 +85,17 @@ public class Input {
     }
 
     /**     获取用户答案  */
+    /*
+    实现控制台输出题目，注意反馈错误信息，比如作答者乱输入东西
+     */
     public static String[] usersAnswer(){
+//        String[] ques;
+//        ques = CreateCorrectExpression.getQuestions();
         Scanner sc = new Scanner(System.in);
         String[] s1 = new String[Input.num];
         StringBuffer sb = new StringBuffer();
         for(int i = 0; i < Input.num;){
+//            System.out.print(i + ques[i]);
             String line = sc.nextLine();
             if(sb.length() != 0) {
                 sb.delete(0, sb.length());

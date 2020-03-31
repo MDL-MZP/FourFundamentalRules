@@ -10,7 +10,7 @@ public class Screen {
     String right_bracket = new String(")");//右括号*/
     static Screen screen = new Screen();
 
-    public  String roughScreen(String exps){
+    public String roughScreen(String exps){
         String result = "";
         String[] exps_array = screen.splitExpression(exps);
         if (exps_array.length == 1){
