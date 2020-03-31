@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="451a8f30-1624-46d2-83c5-a48d02338e5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Answer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise.txt" afterDir="false" />
+    <list default="true" id="4dca1b88-898f-4bc5-94cd-5efc06a12fee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Answer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grade.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/FourFundamentalRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/FourFundamentalRules.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Accuracy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Accuracy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CorrectAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CorrectAnswer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CreateCorrectExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CreateCorrectExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Expression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/FileIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/IsRepeatExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/IsRepeatExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Ruler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Ruler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/Screen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FourFundamentalRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourFundamentalRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funtion/Ruler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/Ruler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Funtion/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funtion/Accuracy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/Accuracy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funtion/CorrectAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/CorrectAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funtion/CreateCorrectExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/CreateCorrectExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funtion/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funtion/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funtion/Input.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,175 +30,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-750671210">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="10" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="PLAIN_TEXT" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="15" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-7024910">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="ft" value="1" />
-          <entry key="java" value="1574" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1574" />
-          <entry key="VTL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="6" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/Screen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="243" column="42" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
-              <folding>
-                <element signature="method#roughScreen#0;class#Screen#0" />
-                <element signature="method#deleteBracket#0;class#Screen#0" />
-                <element signature="method#espressionResult#0;class#Screen#0" />
-                <element signature="method#zeroBehindDenominator#0;class#Screen#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/IsRepeatExpression.java">
+        <entry file="file://$PROJECT_DIR$/src/FourFundamentalRules.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/Expression.java">
+        <entry file="file://$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CreateCorrectExpression.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="-4014">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/Ruler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/CorrectAnswer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5865">
-              <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/CreateCorrectExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/Accuracy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/FileIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Funtion/Input.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FourFundamentalRules.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -203,16 +100,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Funtion/IsRepeatExpression.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/CreateCorrectExpression2.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/FileIO.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/CreateCorrectExpression.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/Input.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/Accuracy.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/Expression.java" />
         <option value="$PROJECT_DIR$/src/FourFundamentalRules.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/Ruler.java" />
-        <option value="$PROJECT_DIR$/src/Funtion/Screen.java" />
       </list>
     </option>
   </component>
@@ -222,12 +110,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2633" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2227" />
+    <option name="y" value="69" />
     <option name="width" value="734" />
-    <option name="height" value="907" />
+    <option name="height" value="737" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -240,6 +128,32 @@
             <path>
               <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="FourFundamentalRules_dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="FourFundamentalRules_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Funtion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FourFundamentalRules_dev" type="b2602c69:ProjectViewProjectNode" />
@@ -262,20 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/FourFundamentalRules" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TeamWork\TeamWork\src\Funtion" />
-      <recent name="E:\TeamWork\TeamWork\src" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,48 +209,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="451a8f30-1624-46d2-83c5-a48d02338e5d" name="Default Changelist" comment="" />
-      <created>1585587386460</created>
+      <changelist id="4dca1b88-898f-4bc5-94cd-5efc06a12fee" name="Default Changelist" comment="" />
+      <created>1585663318348</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585587386460</updated>
-      <workItem from="1585587388009" duration="837000" />
-      <workItem from="1585624296906" duration="6170000" />
-      <workItem from="1585632058068" duration="6155000" />
+      <updated>1585663318348</updated>
+      <workItem from="1585663319761" duration="484000" />
+      <workItem from="1585663980652" duration="552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13162000" />
+    <option name="totallyTimeSpent" value="1036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4173611" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19444445" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32991013" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32991013" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16431323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991013" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,61 +259,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Grade.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/CorrectAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5865">
-          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/FileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/Accuracy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/CreateCorrectExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourFundamentalRules.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise.txt" />
+    <entry file="file://$PROJECT_DIR$/Answer.txt" />
     <entry file="file://$PROJECT_DIR$/src/Funtion/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="243" column="42" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
-          <folding>
-            <element signature="method#roughScreen#0;class#Screen#0" />
-            <element signature="method#deleteBracket#0;class#Screen#0" />
-            <element signature="method#espressionResult#0;class#Screen#0" />
-            <element signature="method#zeroBehindDenominator#0;class#Screen#0" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Grade.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Funtion/IsRepeatExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Funtion/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -424,52 +293,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/IsRepeatExpression.java">
+    <entry file="file://$PROJECT_DIR$/src/FourFundamentalRules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Funtion/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/out/production/FourFundamentalRules_dev/Funtion/CreateCorrectExpression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4014">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
