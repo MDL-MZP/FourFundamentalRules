@@ -13,6 +13,7 @@ import java.io.File;
  */
 public class FourFundamentalRules {
 
+
     public static void main(String[] args) throws Exception {
         /**
          * 提要求：给用户说明怎么使用以及实现最后文件自动删除
