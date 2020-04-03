@@ -11,45 +11,56 @@ import java.io.FileWriter;
  */
 public class FileIO {
 
-    /**         读取练习文件以获取用户的答案       */
-    //提问：这是干嘛？
-    public static String[] read(File f) throws Exception{
-        // 对一行的读取
-        String[] line;
-        int i = 0;
-        String[] userAnswers = new String[CreateCorrectExpression.getQuestions().length];
-        //  对传入的 路径 读取文件
-        FileReader readFile = new FileReader(f);
-        BufferedReader br = new BufferedReader(readFile);
-        String readLine = br.readLine();
-        //  循环，一直读到文件结束
-        while (readLine != null) {
-            //System.out.println(readLine);
-            //  一行表达式只有一个= ，分开后，右边便是用户答案。
-            line = readLine.split("=");
-            userAnswers[i++] = line[1].trim();
-            readLine = br.readLine();
-        }
-        return userAnswers;
-    }
+    /**
+     *   读取文件答案
+     * @param f   要读取的文件对象
+     * @return  返回用户的答案
+     * @throws Exception
+     */
+     public static String[] read(File f) throws Exception{
+         String[] answers = new String[Input.num];
+         FileReader fr = new FileReader(f);
+         BufferedReader br = new BufferedReader(fr);
+         String line = br.readLine();
+         int j =0;
+         while(line != null){
+             String[] sp = line.split("=");
+             if(sp.length > 1){
+                 StringBuffer s = new StringBuffer(sp[0]);
+                 answers[Integer.parseInt(s.substring(0,s.indexOf("."))) - 1] = sp[1].trim();
+             }
+             line = br.readLine();
+         }
+         return answers;
+     }
 
-    /**       将content写入文件      */
+    /**
+     *      将content写入文件
+     * @param fileName 要写入的文件
+     * @param content  要写入的内容
+     * @throws Exception
+     */
     public static void write(File fileName,String[] content) throws Exception{
         FileWriter fw = new FileWriter(fileName);
         for(int i = 0; i < content.length && content[i] != null; i++){
+            // 写入序号和内容
             fw.write(String.valueOf(i+1) + ". " + content[i]);
             fw.write("\n");
         }
         fw.close();
     }
 
-    /**       创建文件或者清除文件内容          */
-
+    /**
+     *  创建文件或者清除文件内容
+     * @param f  要创建或清楚内容的文件
+     * @throws Exception
+     */
     public static void createOrFlush(File f) throws Exception{
         if (!f.exists()) {
             f.createNewFile();
         }
         FileWriter fw = new FileWriter(f);
+        // 清空文件
         fw.write("");
         fw.flush();
         fw.close();
