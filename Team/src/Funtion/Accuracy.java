@@ -55,6 +55,7 @@ public class Accuracy{
         // 拼接
         write[0] = "Correct : " + correctNum + " " + correctIndex;
         write[1] = "Wrong : " + wrongNum + " " + wrongIndex;
+        // 写入文件
         write(grade,write);
     }
 

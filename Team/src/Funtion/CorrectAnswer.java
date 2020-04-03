@@ -52,7 +52,7 @@ public class CorrectAnswer {
                 i++;
             }
         }
-        //    按照运算符的顺序. 一个一个传入计算 , 在函数里计算
+        //按照运算符的顺序. 一个一个传入计算 , 得到最终结果
         s = adjust(str,charpriority,len);
         return s;
     }

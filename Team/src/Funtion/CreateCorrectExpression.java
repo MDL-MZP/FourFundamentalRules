@@ -1,6 +1,7 @@
 package Funtion;
 
 import java.io.File;
+import java.util.Date;
 import java.util.Random;
 
 /**
@@ -34,6 +35,7 @@ public class CreateCorrectExpression {
         String character = "＋-×÷";
         int n;
         char c;
+        String s = "";
         int charNum = 0;
         Random r = new Random();
         // 表达式字符个数charNum 1,2,3随机
@@ -64,6 +66,7 @@ public class CreateCorrectExpression {
      */
     public static void outCorrectExpression(int num, int limits, File exercise,File answer) throws Exception{
         int i = 0;
+        Date d = new Date();
         Screen screen = new Screen();
         //粗略+精细筛选
         x:
@@ -77,16 +80,12 @@ public class CreateCorrectExpression {
                 continue x;
             }
         }
-
         // 正确的表达式 写入练习文件
         FileIO.write(exercise,questions);
-
         // 做出答案
         for(int j = 0;j < num ;j++){
             answers[j] = CorrectAnswer.answer(questions[j]);
         }
-
-
         // 写入答案文件
         FileIO.write(answer,answers);
     }
@@ -112,7 +111,7 @@ public class CreateCorrectExpression {
                 r = rightMove(expression, i);
                 //  数字左边为“（”  同时右边为“)”
                 if (expression.charAt(l - 1) == '(' && expression.charAt(r + 1) == ')') {
-                        expression.deleteCharAt(l - 1);
+                    expression.deleteCharAt(l - 1);
                     // 已经删除了一个 ( ,原先在i+1处的 ) 现在在 i 处
                     expression.deleteCharAt(r);
                 }
